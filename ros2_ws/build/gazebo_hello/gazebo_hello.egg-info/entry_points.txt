@@ -1,3 +1,0 @@
-[console_scripts]
-pan_tilt_motion = gazebo_hello.pan_tilt_motion:main
-
