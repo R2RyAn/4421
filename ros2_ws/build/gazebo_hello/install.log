@@ -10,6 +10,7 @@
 /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/share/gazebo_hello/urdf
 /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/share/gazebo_hello/urdf/example_include.xacro
 /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/share/gazebo_hello/urdf/pan_tilt.urdf.xacro
+/home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/share/gazebo_hello/urdf/camera.xacro
 /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/share/gazebo_hello/urdf/example_gazebo.xacro
 /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/share/gazebo_hello/config/pan_tilt_controllers.yaml
 /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages/gazebo_hello-0.0.0-py3.10.egg-info/requires.txt

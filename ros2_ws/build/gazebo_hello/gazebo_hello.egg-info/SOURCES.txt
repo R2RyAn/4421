@@ -18,6 +18,7 @@ resource/gazebo_hello
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/camera.xacro
 urdf/example_gazebo.xacro
 urdf/example_include.xacro
 urdf/pan_tilt.urdf.xacro
