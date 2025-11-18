@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/gazebo_hello/gazebo_hello.egg-info/PKG-INFO
+writing dependency_links to ../../build/gazebo_hello/gazebo_hello.egg-info/dependency_links.txt
+writing entry points to ../../build/gazebo_hello/gazebo_hello.egg-info/entry_points.txt
+writing requirements to ../../build/gazebo_hello/gazebo_hello.egg-info/requires.txt
+writing top-level names to ../../build/gazebo_hello/gazebo_hello.egg-info/top_level.txt
+reading manifest file '../../build/gazebo_hello/gazebo_hello.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file '../../build/gazebo_hello/gazebo_hello.egg-info/SOURCES.txt'
+running build
+running build_py
+copying gazebo_hello/pan_tilt_motion.py -> /home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/build/lib/gazebo_hello
+running install
+running install_lib
+copying /home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/build/lib/gazebo_hello/pan_tilt_motion.py -> /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages/gazebo_hello
+byte-compiling /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages/gazebo_hello/pan_tilt_motion.py to pan_tilt_motion.cpython-310.pyc
+running install_data
+copying launch/pan_tilt_motion.launch.py -> /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/share/gazebo_hello/launch
+running install_egg_info
+removing '/home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages/gazebo_hello-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/gazebo_hello/gazebo_hello.egg-info to /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages/gazebo_hello-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pan_tilt_motion script to /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/gazebo_hello
+writing list of installed files to '/home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/install.log'

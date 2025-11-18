@@ -1,0 +1,25 @@
+[0.332s] Invoking command in '/home/rayan/Desktop/test/ros2_ws/src/gazebo_hello': PYTHONPATH=/home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_hello build --build-base /home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/build install --record /home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/install.log --single-version-externally-managed install_data
+[0.459s] running egg_info
+[0.459s] writing ../../build/gazebo_hello/gazebo_hello.egg-info/PKG-INFO
+[0.459s] writing dependency_links to ../../build/gazebo_hello/gazebo_hello.egg-info/dependency_links.txt
+[0.459s] writing entry points to ../../build/gazebo_hello/gazebo_hello.egg-info/entry_points.txt
+[0.459s] writing requirements to ../../build/gazebo_hello/gazebo_hello.egg-info/requires.txt
+[0.459s] writing top-level names to ../../build/gazebo_hello/gazebo_hello.egg-info/top_level.txt
+[0.460s] reading manifest file '../../build/gazebo_hello/gazebo_hello.egg-info/SOURCES.txt'
+[0.460s] reading manifest template 'MANIFEST.in'
+[0.461s] writing manifest file '../../build/gazebo_hello/gazebo_hello.egg-info/SOURCES.txt'
+[0.461s] running build
+[0.461s] running build_py
+[0.461s] copying gazebo_hello/pan_tilt_motion.py -> /home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/build/lib/gazebo_hello
+[0.461s] running install
+[0.461s] running install_lib
+[0.462s] copying /home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/build/lib/gazebo_hello/pan_tilt_motion.py -> /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages/gazebo_hello
+[0.463s] byte-compiling /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages/gazebo_hello/pan_tilt_motion.py to pan_tilt_motion.cpython-310.pyc
+[0.463s] running install_data
+[0.464s] running install_egg_info
+[0.464s] removing '/home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages/gazebo_hello-0.0.0-py3.10.egg-info' (and everything under it)
+[0.464s] Copying ../../build/gazebo_hello/gazebo_hello.egg-info to /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages/gazebo_hello-0.0.0-py3.10.egg-info
+[0.465s] running install_scripts
+[0.476s] Installing pan_tilt_motion script to /home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/gazebo_hello
+[0.477s] writing list of installed files to '/home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/install.log'
+[0.489s] Invoked command in '/home/rayan/Desktop/test/ros2_ws/src/gazebo_hello' returned '0': PYTHONPATH=/home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayan/Desktop/test/ros2_ws/install/gazebo_hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_hello build --build-base /home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/build install --record /home/rayan/Desktop/test/ros2_ws/build/gazebo_hello/install.log --single-version-externally-managed install_data
