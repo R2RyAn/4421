@@ -37,6 +37,13 @@ def generate_launch_description():
             )
         )
     )
+    rviz = Node(
+            package='rviz2',
+            namespace='',
+            executable='rviz2',
+            name='rviz2',
+            arguments=['-d' + os.path.join(get_package_share_directory('gazebo_hello'), 'config', 'config_file.rviz')]
+        )
 
     # Spawn robot
     spawn_entity = Node(
@@ -47,8 +54,18 @@ def generate_launch_description():
         output='screen'
     )
 
+    motion = Node(
+        package='gazebo_hello',
+        executable='pan_tilt_motion',
+        name='pan_tilt_motion',
+        output='screen',
+        parameters=[{'use_sim_time': True}]
+    )
+
     return LaunchDescription([
         gazebo,
         node_robot_state_publisher,
-        spawn_entity
+        spawn_entity,
+        motion,
+        rviz,
     ])
