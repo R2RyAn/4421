@@ -1,2 +1,0 @@
-recursive-include launch *.py
-recursive-include worlds *.world
